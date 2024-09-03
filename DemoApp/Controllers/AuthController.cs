@@ -9,20 +9,28 @@ namespace DemoApp.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-[Authorize]
+
 public class AuthController : ControllerBase
 {
     string signingKey = "BuBenimCokDahaUzunVeGuvenliSigningKeyDegerim0123456789";
     [HttpGet]
     public string Login(string userName, string password)
     {
-        var claims = new[]
+        var claims = new List<Claim>
         {
-        new Claim(ClaimTypes.Name, userName),
-        new Claim(JwtRegisteredClaimNames.Email, userName)
-    };
+            new Claim(ClaimTypes.Name, userName),
+            new Claim(JwtRegisteredClaimNames.Email, userName),
+        };
 
-        
+        if (userName == "a@a.com")
+        {
+            claims.Add(new Claim(ClaimTypes.Role, "Admin"));
+        }
+        else
+        {
+            claims.Add(new Claim(ClaimTypes.Role, "User"));
+        }
+
         var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(signingKey));
         var securityCreds = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
@@ -45,7 +53,8 @@ public class AuthController : ControllerBase
         try
         {
             JwtSecurityTokenHandler handler = new();
-            handler.ValidateToken(token, new TokenValidationParameters() {
+            handler.ValidateToken(token, new TokenValidationParameters()
+            {
                 ValidateIssuerSigningKey = true,
                 IssuerSigningKey = securityKey,
                 ValidateLifetime = true,

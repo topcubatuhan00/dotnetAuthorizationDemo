@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\batuh\\Desktop\\authApp\\dotnetAuthorizationDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE8FEA-96AE-4535-9D19-C851E82CD231}|DemoApp\\DemoApp.csproj|c:\\users\\batuh\\desktop\\authapp\\dotnetauthorizationdemo\\demoapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE8FEA-96AE-4535-9D19-C851E82CD231}|DemoApp\\DemoApp.csproj|solutionrelative:demoapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE8FEA-96AE-4535-9D19-C851E82CD231}|DemoApp\\DemoApp.csproj|c:\\users\\batuh\\desktop\\authapp\\dotnetauthorizationdemo\\demoapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE8FEA-96AE-4535-9D19-C851E82CD231}|DemoApp\\DemoApp.csproj|solutionrelative:demoapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE8FEA-96AE-4535-9D19-C851E82CD231}|DemoApp\\DemoApp.csproj|c:\\users\\batuh\\desktop\\authapp\\dotnetauthorizationdemo\\demoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE8FEA-96AE-4535-9D19-C851E82CD231}|DemoApp\\DemoApp.csproj|solutionrelative:demoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 212,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\batuh\\Desktop\\authApp\\dotnetAuthorizationDemo\\DemoApp\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "DemoApp\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\batuh\\Desktop\\authApp\\dotnetAuthorizationDemo\\DemoApp\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "DemoApp\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T23:10:51.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\batuh\\Desktop\\authApp\\dotnetAuthorizationDemo\\DemoApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DemoApp\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\batuh\\Desktop\\authApp\\dotnetAuthorizationDemo\\DemoApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DemoApp\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T22:56:56.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\batuh\\Desktop\\authApp\\dotnetAuthorizationDemo\\DemoApp\\Program.cs",
+              "RelativeDocumentMoniker": "DemoApp\\Program.cs",
+              "ToolTip": "C:\\Users\\batuh\\Desktop\\authApp\\dotnetAuthorizationDemo\\DemoApp\\Program.cs",
+              "RelativeToolTip": "DemoApp\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T22:51:21.362Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

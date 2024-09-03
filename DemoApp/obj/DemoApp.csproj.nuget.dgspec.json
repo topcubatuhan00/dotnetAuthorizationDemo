@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\topcu\\OneDrive\\Masaüstü\\blogApp\\DemoApp\\DemoApp\\DemoApp.csproj": {}
+    "C:\\Users\\batuh\\Desktop\\authApp\\dotnetAuthorizationDemo\\DemoApp\\DemoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\topcu\\OneDrive\\Masaüstü\\blogApp\\DemoApp\\DemoApp\\DemoApp.csproj": {
+    "C:\\Users\\batuh\\Desktop\\authApp\\dotnetAuthorizationDemo\\DemoApp\\DemoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\topcu\\OneDrive\\Masaüstü\\blogApp\\DemoApp\\DemoApp\\DemoApp.csproj",
+        "projectUniqueName": "C:\\Users\\batuh\\Desktop\\authApp\\dotnetAuthorizationDemo\\DemoApp\\DemoApp.csproj",
         "projectName": "DemoApp",
-        "projectPath": "C:\\Users\\topcu\\OneDrive\\Masaüstü\\blogApp\\DemoApp\\DemoApp\\DemoApp.csproj",
-        "packagesPath": "C:\\Users\\topcu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\topcu\\OneDrive\\Masaüstü\\blogApp\\DemoApp\\DemoApp\\obj\\",
+        "projectPath": "C:\\Users\\batuh\\Desktop\\authApp\\dotnetAuthorizationDemo\\DemoApp\\DemoApp.csproj",
+        "packagesPath": "C:\\Users\\batuh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\batuh\\Desktop\\authApp\\dotnetAuthorizationDemo\\DemoApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\topcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\batuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,12 +35,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
@@ -72,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
